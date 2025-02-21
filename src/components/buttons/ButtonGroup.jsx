@@ -13,7 +13,7 @@ export default function ButtonGroup () {
                 {/* ciclo languages per btn comp */}
                 {
                     languages.map( (language) => {
-                        <Button key={language.id} lang={language} />
+                        return <Button key={language.id} lang={language} />
                     } )
                 }
             </div>
