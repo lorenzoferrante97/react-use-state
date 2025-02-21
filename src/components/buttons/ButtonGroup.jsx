@@ -1,13 +1,14 @@
 
 import { useState } from "react";
 
-import languages from "../../data/languages.js";
+
 import Button from "./Button";
 
 
-export default function ButtonGroup () {
+export default function ButtonGroup (props) {
 
 
+    const languages = props.languages;
     const [ activeLangId, setActiveLang ] = useState(1);
 
     const changeActiveId = (activeId) => {
