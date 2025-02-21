@@ -18,7 +18,7 @@ export default function Button (props) {
         <>
             <button onClick={onClick} className={
                 `
-                    px-7u py-4u rounded-md
+                    px-7u py-4u rounded-md basis-[48%] md:basis-[32%] lg:basis-auto
                     ${type === "active" ? "bg-amber-300" : "bg-blue-200"}
                 `
                 }>{title}</button>

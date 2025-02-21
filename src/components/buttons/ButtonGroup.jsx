@@ -17,7 +17,7 @@ export default function ButtonGroup () {
     return (
 
         <>
-            <div className="flex flex-wrap justify-center items-center gap-4">
+            <div className="flex flex-wrap justify-between lg:justify-center items-center gap-y-3u lg:gap-x-3u">
 
                 {/* ciclo languages per btn comp */}
                 {

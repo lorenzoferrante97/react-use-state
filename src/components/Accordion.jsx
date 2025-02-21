@@ -7,8 +7,10 @@ export default function Accordion () {
     return (
 
         <>
-            <ButtonGroup />
-            <TextContainer />
+            <div className="flex flex-col items-center gap-5u">
+                <ButtonGroup />
+                <TextContainer />
+            </div>
         </>
 
     )
