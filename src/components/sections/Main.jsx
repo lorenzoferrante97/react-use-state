@@ -1,6 +1,5 @@
 
-import ButtonGroup from "../buttons/ButtonGroup";
-import TextContainer from "../TextContainer";
+import Accordion from "../Accordion";
 
 export default function Main () {
 
@@ -8,8 +7,7 @@ export default function Main () {
 
         <>
             <main className="w-[92%] xl:w-full xl:max-w-[1200px] mx-auto h-full">
-                <ButtonGroup />
-                <TextContainer />
+                <Accordion />
             </main>
         </>
 
