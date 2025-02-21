@@ -3,12 +3,13 @@
 
 export default function Button (props) {
 
-    const title = props.lang.title;
+    const { lang, type } = props;
+    const title = lang.title;
 
     return (
 
         <>
-            <button>{title}</button>
+            <button className="px-7u py-4u rounded-md">{title}</button>
         </>
 
     )

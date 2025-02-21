@@ -13,7 +13,11 @@ export default function ButtonGroup () {
                 {/* ciclo languages per btn comp */}
                 {
                     languages.map( (language) => {
-                        return <Button key={language.id} lang={language} />
+                        return <Button 
+                            key={language.id}
+                            lang={language}
+                            type={`${language.id === 1 ? 'active' : 'default'}`}
+                        />
                     } )
                 }
             </div>
