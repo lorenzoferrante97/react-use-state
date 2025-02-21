@@ -9,7 +9,12 @@ export default function Button (props) {
     return (
 
         <>
-            <button className="px-7u py-4u rounded-md">{title}</button>
+            <button className={
+                `
+                    px-7u py-4u rounded-md
+                    ${type === "active" ? "bg-amber-300" : "bg-blue-200"}
+                `
+                }>{title}</button>
         </>
 
     )
