@@ -1,5 +1,5 @@
 
-import languages from "../../data/languages";
+import languages from "../../data/languages.js";
 import Button from "./Button";
 
 
