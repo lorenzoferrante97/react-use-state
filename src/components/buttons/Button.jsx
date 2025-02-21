@@ -1,15 +1,22 @@
 
-
+// import { useState } from "react";
 
 export default function Button (props) {
 
-    const { lang, type } = props;
+    // // settare pulsante come active o default
+    // const changeType = () => {
+    //     setType( currentType === "active" ? "default" : "active" )
+    // }
+
+    const { lang, type, onClick } = props;
     const title = lang.title;
+    // const [ currentType, setType ] = useState(type);
+
 
     return (
 
         <>
-            <button className={
+            <button onClick={onClick} className={
                 `
                     px-7u py-4u rounded-md
                     ${type === "active" ? "bg-amber-300" : "bg-blue-200"}
